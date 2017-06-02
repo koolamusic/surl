@@ -77,7 +77,7 @@ if ($rows)
 <td valign="top">
 <table width="100%">
 <tr>
-<td width="50" height="50" align="center" valign="middle" style="font-weight: bold; border: 1px solid #000099; background-color: #eee; color :#FFFFFF">
+<td width="50" height="50" align="center" valign="middle" style="font-weight: bold; border: 1px solid #333; background-color: #333; color :#FFFFFF">
 <?php echo $rows['view']; ?><br />
 <?php echo VIEWS; ?></td></tr>
 <tr>
@@ -108,3 +108,4 @@ else
 <?php
 include 'footer.php';
 ?>
+
