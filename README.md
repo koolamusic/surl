@@ -24,6 +24,11 @@ and generate own string ... just write your password with words and click on but
 then copy/paste to this 40 row in .sql file :)
 ````
 
+
+# HTACCESS
+Htaccess file is utilized here for pretty links; so check that apache had mod rewirite enabled; and if you are using a vps 
+Set AllowOverride All in Virtual hosts directory for apache config. 
+
 #how to access the admin panel?
 
 http://localhost/FOLDER_NAME/admin
